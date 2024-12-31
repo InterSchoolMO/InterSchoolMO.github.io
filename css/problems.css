@@ -1,0 +1,35 @@
+/* Problems Page Layout */
+main {
+    padding: 80px 20% 4rem;
+    min-height: calc(100vh - 140px);
+}
+
+/* h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+} */
+
+.problems-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+/* Additional Resources */
+.additional-resources {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.additional-resources a {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 80px 5% 4rem;
+    }
+}

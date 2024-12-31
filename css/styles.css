@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Quicksand', Arial, sans-serif;
 }
 
 body {
@@ -86,14 +86,16 @@ h2 {
     color: var(--primary-color);
     font-size: 1.1rem;
     transition: color 0.3s ease;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
 }
 
 .nav-links a:hover {
     color: var(--secondary-color);
 }
 
-.nav-links .join-us {
-    color: var(--primary-color);
+.nav-links a.active {
+    border-bottom: 2px solid var(--primary-color);
 }
 
 /* Main Content */

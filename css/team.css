@@ -1,0 +1,132 @@
+/* Team Page Layout */
+.team-section {
+    padding: 120px 5% 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* .team-section h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 4rem;
+} */
+
+.team-section h2 {
+    font-size: 2rem;
+    margin: 3rem 0 2rem;
+}
+
+/* Board Members */
+.board-members {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin: 2rem 0;
+}
+
+.member {
+    text-align: center;
+    width: 300px;
+}
+
+.member img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    object-position: center 30%;
+}
+
+.member h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.member p {
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.social-link {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* Jury List */
+.jury-list {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.jury-list p {
+    margin: 0.5rem 0;
+    color: var(--secondary-color);
+}
+
+/* Markers Grid */
+.markers-grid {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.markers-column {
+    text-align: center;
+}
+
+.markers-column p {
+    margin: 0.5rem 0;
+    color: var(--secondary-color);
+}
+
+/* Schools Grid */
+.schools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    align-items: center;
+    justify-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.schools-grid img {
+    max-width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .board-members {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .markers-grid {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .schools-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .schools-grid {
+        grid-template-columns: 1fr;
+    }
+}

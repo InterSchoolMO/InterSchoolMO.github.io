@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home page - highest priority -->
+  <url>
+    <loc>https://interschoolmo.github.io/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Team page - updated yearly -->
+  <url>
+    <loc>https://interschoolmo.github.io/team</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Results page - updated yearly -->
+  <url>
+    <loc>https://interschoolmo.github.io/results</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Past problems - updated yearly -->
+  <url>
+    <loc>https://interschoolmo.github.io/problems</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Eligibility - static but important information -->
+  <url>
+    <loc>https://interschoolmo.github.io/eligibility</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact page - static information -->
+  <url>
+    <loc>https://interschoolmo.github.io/contact</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Join Us page - static but important for recruitment -->
+  <url>
+    <loc>https://interschoolmo.github.io/join</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

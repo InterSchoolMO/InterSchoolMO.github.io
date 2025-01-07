@@ -1,0 +1,10 @@
+# robots.txt for Interschool Math Olympiad
+
+# Allow all robots full access
+User-agent: *
+Allow: /
+
+# Point to sitemap
+Sitemap: https://interschoolmo.github.io/sitemap.xml
+
+# Crawl-delay is not needed for GitHub Pages as it has built-in rate limiting
